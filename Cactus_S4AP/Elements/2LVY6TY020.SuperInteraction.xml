@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<SuperInteraction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Guid="2LVY6TY020" IsContextSpecific="false" SaveVersion="1" ShowPreset="true" TagText="" UserFacingId="SuperInteractionExperimental2">
+  <ContextModifiers />
+  <GeneratedLabel>Show Maximum Skill Levels</GeneratedLabel>
+  <InstanceKeyOverride xsi:nil="true" />
+  <IsTemporary>false</IsTemporary>
+  <MacroFiles />
+  <Components>
+    <InteractionComponent xsi:type="SuperInteractionTemplateComponent">
+      <Template xsi:type="ImmediateInteractionTemplate">
+        <PieMenuCategory TypeName="PieMenuCategory" Guid="Z5FUMERW1E" />
+        <UseCustomScoreType>false</UseCustomScoreType>
+        <LootActionSets>
+          <Items>
+            <ReferenceListItem>
+              <Reference TypeName="LootActionSet" Guid="2S3LJ6AQOL" />
+            </ReferenceListItem>
+          </Items>
+        </LootActionSets>
+        <TuningActionsFile>ImmediateInteraction</TuningActionsFile>
+      </Template>
+    </InteractionComponent>
+    <InteractionComponent xsi:type="InteractionInfoComponent">
+      <AllowAutonomous>false</AllowAutonomous>
+      <AllowUserDirected>true</AllowUserDirected>
+      <IsCheat>false</IsCheat>
+      <IsHiddenInQueue>false</IsHiddenInQueue>
+      <Name CustomText="Show Maximum Skill Levels" Guid="UQHQMJB5HC" />
+      <NameOnTarget CustomText="Listen to {1.SimFirstName}'s Custom Interaction" Guid="6OOTWFNMDZ" />
+      <PieMenuIcon Path="Icons/BG Misc/missing_image 30f0846c783606f9.png" Text="2f7d0004:00000000:30f0846c783606f9 &lt;&lt;&lt;Default Image" />
+      <SetPieMenuIcon>false</SetPieMenuIcon>
+    </InteractionComponent>
+    <InteractionComponent xsi:type="InteractionAddToObjectComponent">
+      <AddToObjects>
+        <Items />
+      </AddToObjects>
+      <AddToObjectsWithInteraction>
+        <Items />
+      </AddToObjectsWithInteraction>
+      <AddToPhone>true</AddToPhone>
+      <AddToSims>false</AddToSims>
+      <AddToSimsActiveOnly>false</AddToSimsActiveOnly>
+    </InteractionComponent>
+    <InteractionComponent xsi:type="InteractionBasicExtrasComponent">
+      <BasicExtras>
+        <ConditionGroups />
+      </BasicExtras>
+    </InteractionComponent>
+    <InteractionComponent xsi:type="InteractionConditionsComponent">
+      <Conditions />
+    </InteractionComponent>
+  </Components>
+  <CustomTuning />
+</SuperInteraction>

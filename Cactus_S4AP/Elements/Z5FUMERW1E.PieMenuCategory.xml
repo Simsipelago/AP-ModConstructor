@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<PieMenuCategory xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Guid="Z5FUMERW1E" IsContextSpecific="false" SaveVersion="1" ShowPreset="true" TagText="" UserFacingId="PieMenuCategory2">
+  <ContextModifiers />
+  <GeneratedLabel>Pie Menu Category</GeneratedLabel>
+  <InstanceKeyOverride xsi:nil="true" />
+  <IsTemporary>false</IsTemporary>
+  <MacroFiles />
+  <CustomTuning />
+  <HasIcon>true</HasIcon>
+  <Icon Path="C:\Users\halee\OneDrive\Documents/The Sims 4 Mod Constructor/Projects\Cactus_S4AP\CustomImages\icon f1c680e09b12c2b6.png" Text="2f7d0004:00000000:f1c680e09b12c2b6 &lt;&lt;&lt;icon" />
+  <Collapsible>false</Collapsible>
+  <Name CustomText="Archipelapp" Guid="Z5FUMERW1E" />
+  <Parent />
+  <DisplayPriority>0</DisplayPriority>
+</PieMenuCategory>

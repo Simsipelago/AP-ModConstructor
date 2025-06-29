@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<LootActionSet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Guid="UUV20239GU" IsContextSpecific="true" SaveVersion="1" ShowPreset="false" TagText="" UserFacingId="UUV20239GU2">
+  <ContextModifiers />
+  <GeneratedLabel>New Loot Action Set</GeneratedLabel>
+  <InstanceKeyOverride xsi:nil="true" />
+  <IsTemporary>false</IsTemporary>
+  <MacroFiles />
+  <ConditionGroups>
+    <LASConditionGroup>
+      <Condition xsi:type="AlwaysRunCondition" GeneratedLabel="Always Run" SaveVersion="1" />
+      <IsExpanded>true</IsExpanded>
+      <Items>
+        <LASConditionGroupItem xsi:type="LASConditionGroupAction">
+          <Action xsi:type="AddTraitAction" GeneratedLabel="Add Trait">
+            <ActionGuid>CWRK3SZCNN</ActionGuid>
+            <Chance>
+              <BaseChance>100</BaseChance>
+            </Chance>
+            <Trait TypeName="Trait" Guid="0K37WUF301" />
+            <Participant>Actor</Participant>
+            <TreatAsSelfDiscovery>false</TreatAsSelfDiscovery>
+          </Action>
+        </LASConditionGroupItem>
+      </Items>
+    </LASConditionGroup>
+  </ConditionGroups>
+  <CustomTuning />
+  <MergeToLoots>
+    <Items />
+  </MergeToLoots>
+</LootActionSet>
